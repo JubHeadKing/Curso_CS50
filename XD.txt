@@ -1,7 +1,0 @@
-https://omes-va.com/comunicacion-python-arduino-pyserial-mediapipe-opencv/
-
-https://www.youtube.com/watch?v=qWESWDKYWFU&t=575s0
-
-
- pip freeze
- pip install 'protobuf~=3.20.1'
