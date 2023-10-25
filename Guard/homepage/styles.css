@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Koulen', cursive;
+}
+
+.altura-a-b{
+    padding: 100px 0;
+}
+
+.logotipo{
+    width: 100px;
+    padding: 10px 0;
+}
+
+.image{
+    width: 150px;
+}
+
+.banner-video{
+    background-image: url("../image/videoImage.png");
+    padding: 200px 0;
+    position: relative;
+    text-align: center;
+}
+
+.banner-video .play{
+    width: 80px;
+    height: 80px;
+    position: relative;
+}
+
+footer{
+    background-color: #CB3234;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.logotipo-footer{
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.sps--abv {
+    background-color: transparent;
+    color: #000;
+}
+
+.sps--blw {
+    background-color: #2B2B2B;
+    color: #fff;
+}
+
+nav.sps--abv .logotipo{
+    width: 180px;
+}
+
+.cabecera-Modo-BR{
+    padding: 150px 0 100px 0;
+    background-image: url("../Image/BR0.jpg");
+    background-position: top center;
+    background-size: cover;
+    color: #FFF;
+}
+
+.cabecera-Modo-AR{
+    padding: 150px 0 100px 0;
+    background-image: url("../Image/AR0.jpg");
+    background-position: top center;
+    background-size: cover;
+    color: #FFF;
+}
+
+.cabecera-Modo-INF{
+    padding: 150px 0 100px 0;
+    background-image: url("../Image/Info0.jpg");
+    background-position: top center;
+    background-size: cover;
+    color: #FFF;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+        <script>
+            window.addEventListener("load", function() {
+                let correct = document.querySelector("#correcto");
+                let incorrect = document.querySelectorAll(".incorrecto");
+
+                correct.addEventListener("click", function(){
+                    correct.style.backgroundColor = "green";
+                    message.innerHTML = "Correcto";
+                })
+                for (let i = 0; i < incorrect.length; i++)
+                {
+                    incorrect[i].addEventListener("click", function(){
+                        incorrect[i].style.backgroundColor = "red";
+                        message.innerHTML = "Incorrecto";
+                    })
+                }
+                document.querySelector("#btn").addEventListener("click", function(){
+                    let input = document.querySelector("#anwser");
+                    let message2 = document.querySelector("#message2")
+                    if (input.value == "Gojo"){
+                        input.style.color = "green";
+                        message2.innerHTML = "Correcto";
+                    }else{
+                        input.style.color = "red";
+                        message2.innerHTML = "Incorrecto";
+                    }
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <h3> Capital de Japon? </h3>
+                    <input type="button" id="correcto" value="Tokio"/>
+                    <input type="button" class="incorrecto" value="Oyasumi"/>
+                    <input type="button" class="incorrecto" value="Osaka"/>
+                    <p id="message"></p>
+
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <h3> El mas fuerte de Jujutsu Kaisen es?  </h3>
+                    <input id="anwser" type="text"/>
+                    <button id="btn"> Enviar </button>
+                    <p id="message2"></p>
+            </div>
+        </div>
+    </body>
+</html>
+
+

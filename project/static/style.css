@@ -1,0 +1,57 @@
+body {
+    margin: 0px;
+}
+
+.container {
+    display: grid;
+    place-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: slategray;
+}
+
+.login-form {
+    display: grid;
+    gap: 15px;
+    grid-template-rows: repeat(6, auto);
+    grid-template-columns: auto;
+    background-color: black;
+    padding: 30px;
+    border: 3px lightgray;
+    border-radius: 15px;
+}
+
+.login-type {
+    text-align: center;
+    font-family: "Lucida Console", monospace;
+    font-size: 25px;
+    color: white;
+}
+
+input {
+    border-radius: 10px;
+    font-family: "Lucida Console", monospace;
+    font-size: 25px;
+    padding: 5px;
+}
+
+input:focus {
+    border-radius: 15px;
+    box-shadow: 0 0 5px 5px rgba(115, 191, 243, 0.8)
+}
+
+  button {
+    cursor: pointer;
+    background-color: dimgray;
+    color: white;
+    font-family: "Lucida Console", monospace;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+p {
+    color: red;
+    font-family: "Lucida Console", monospace;
+    text-indent: 5px;
+}

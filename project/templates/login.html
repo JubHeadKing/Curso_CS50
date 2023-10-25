@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <link href="/static/style.css" rel="stylesheet">
+    <title> Login </title>
+</head>
+
+<body>
+    <div class="container">
+
+        <form method="post">
+
+            <div class="login-form">
+                <span class="login-type">Login Session</span>
+                <div class="info-holder">
+                    <input autocomplete="off" autofocus class="form-control mx-auto w-auto" id="username"
+                        name="username" placeholder="Username" type="text" required>
+                </div>
+                <div>
+                    <input id="password" name="password" placeholder="Password" type="password" required>
+                </div>            
+                {% if error %}
+                <p> <strong>Error:</strong> {{ error }} </p>
+                {% endif %}
+                <button type="submit">Login</button>
+            </div>
+
+        </form>
+    </div>
+
+</body>
+
+</html>

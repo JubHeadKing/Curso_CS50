@@ -1,0 +1,14 @@
+sort1 uses: Bubble Sort
+
+How do you know?: A pesar de ser un algoritmo simple puede llegar a se ineficiente para orenanmientos a grandes cantidades, por ende, dilata más
+                  en hacer el odemiento, dónde consume espacio adicional para almacenar variables y necesita más intercambios, y el peor de los
+                  casos de este es O(n).
+
+sort2 uses: Merge Sort
+
+How do you know?: Al ser el más eficiente, es el más rapido en hacer los ordenamientos de numeros aleatorios tanto como las ordenadas.
+
+sort3 uses:  Selection Sort
+
+How do you know?: Porque al ser más eficiente este se realiza más rapido que el de burbuja al hacer los test, pero no lo suficientemente rápido como el Mergem ya que
+                  para ordenamientos de numeros randoms grandes, el mejor seria el Merge.dwa

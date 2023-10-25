@@ -1,0 +1,21 @@
+
+                <form id="frm" method="POST"  action="app.py">
+                    <p>
+
+                        <input type="hidden" id="fecha" value="02/12/2015" placeholder="mm/dd/yyyy"/>
+                        <input type="text" id="name" value="Nombre"/>
+                        <input type="number" id="m" value="" placeholder="mm"/>
+                        <input type="number" id="d" value="" placeholder="dd"/>
+                        <input type="number" id="y" value="" placeholder="yyyy"/>
+                    </p>
+                    <p>
+                        <input type="submit" id="submit" name="submit" value="Enviar"/>
+                    </p>
+
+                    #esto es para el pset9
+                    #nombre = request.form['nombre del usuario']
+                    #password = request.form['contra']
+                    #paswordConfirm = request.form['confirmacion de contra']
+
+
+                    https://www.youtube.com/watch?v=BP3D03CYFHA
